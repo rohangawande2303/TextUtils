@@ -70,7 +70,7 @@ export default function About(props) {
               Textutils is a free character counter tool that provides instant
               character count & word count statistics for a given text.
               Textutlis reports the number of words and characters. Thus it is
-              suitable for writing text with words character limit
+              suitable for writing text with words character limit can be done
             </div>
           </div>
         </div>
