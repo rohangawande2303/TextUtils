@@ -35,13 +35,13 @@ export default function Navbar(props) {
               {/* we have used "a"and "to" instead of "href" */}
             </li>
             <li className="nav-item">
-              <Link className="nav-link " to="/">
+              <Link className="nav-link " to="/about">
                 {props.aboutText}
                 About
               </Link>
             </li>
           </ul>
-          <div className="d-flex">
+          {/* <div className="d-flex">
             <div
               className="bg-primary rounded mx-2"
               onclick={() => {
@@ -70,7 +70,7 @@ export default function Navbar(props) {
               }}
               style={{ height: "30px", width: "30px", cursor: "pointer" }}
             ></div>
-          </div>
+          </div> */}
 
           <div
             className={`form-check form-switch text-${
